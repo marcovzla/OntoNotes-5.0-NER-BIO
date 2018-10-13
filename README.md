@@ -24,7 +24,7 @@ Make sure the command `python` in your terminal refers to a version of python 2.
 
 Then, you can run: 
 ```
-./scripts/skeleton2conll.sh -D ../ontonotes-release-5.0/data/files/data ./conll-formatted-ontonotes-5.0
+./conll-formatted-ontonotes-5.0/scripts/skeleton2conll.sh -D ../ontonotes-release-5.0/data/files/data ./conll-formatted-ontonotes-5.0
 ```
 It assumes that you put the downloaded ontonotes data outside this repo but at the same level. This step can take some time (around 5 mins on my macbook pro). Now, you should have *_conll files corresponding to the original *_skel files.
 
