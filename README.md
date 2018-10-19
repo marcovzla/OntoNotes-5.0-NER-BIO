@@ -31,3 +31,5 @@ It assumes that you put the downloaded ontonotes data outside this repo but at t
 You can deactive the envrionment now (`$ source deactivate`).
 
 #### Step 3: Combine the data and convert tags within BIO.
+
+Run `python3 agg.py` to obtain `onto.train.ner`, `onto.development.ner`, and `onto.test.ner`.
