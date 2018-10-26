@@ -32,4 +32,4 @@ You can deactive the envrionment now (`$ source deactivate`).
 
 #### Step 3: Combine the data and convert tags within BIO.
 
-Run `python3 agg.py` to obtain `onto.train.ner`, `onto.development.ner`, and `onto.test.ner`.
+Run `python3 agg.py` to obtain `onto.train.ner`, `onto.development.ner`, and `onto.test.ner`. （I only keep the first 50 lines as the examples here.)
