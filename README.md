@@ -14,7 +14,7 @@ You can download the data at [https://catalog.ldc.upenn.edu/LDC2013T19](https://
 
 #### Step 2: Running the script to recover words
 
-The orginal repo of the authors only contains the  *_skel files, which mask the orginal words. Thus, you have to run the script to recover them from the downloaded OntoNotes 5.0 data. The script is based on python 2. If you are using conda, you can create a virtual environment for running python 2 quickly. Note that there are no python2 builds for arm-64, so if you use a newer mac, you need to use rossetta:
+The orginal repo of the authors only contains the  *_skel files, which mask the orginal words. Thus, you have to run the script to recover them from the downloaded OntoNotes 5.0 data. The script is based on python 2. If you are using conda, you can create a virtual environment for running python 2 quickly. Note that there are no python2 builds for arm64, so if you use a newer mac, you need to use rossetta:
 ```
 $ CONDA_SUBDIR=osx-64 conda create --name py27 python=2.7
 $ source activate py27
